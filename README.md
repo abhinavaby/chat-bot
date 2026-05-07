@@ -19,7 +19,7 @@ A simple static chatbot demo built with HTML, CSS, and JavaScript.
 
 Add your deployed website URL here:
 
-`https://your-website-link.example.com`
+`https://abhinavaby.github.io/chat-bot/`
 
 ## ▶️ How to use
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>Chatbot</h1>
+        <p>Ask anything and get a quick response.</p>
+      </div>
+      <section class="keyword-box" aria-label="Keyword suggestions">
+        <div class="keyword-box__title">Pick a suggestion</div>
+        <div id="keywordPanel" class="keyword-panel"></div>
+      </section>
+    </header>
+
+    <main class="chat-panel">
+      <div id="chatWindow" class="chat-window"></div>
+      <form id="chatForm" class="chat-form">
+        <input id="messageInput" type="text" placeholder="Type your message..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
